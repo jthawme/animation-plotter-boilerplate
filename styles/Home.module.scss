@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.canvas {
+  outline: 1px solid red;
+}
+
+.controls {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+
+  position: fixed;
+
+  bottom: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 10px;
+
+  label {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 200px;
+
+    margin: 0 0 1em;
+
+    span {
+      font-size: 10px;
+    }
+  }
+
+  button {
+    margin: 0.5em 0 0;
+  }
+}
